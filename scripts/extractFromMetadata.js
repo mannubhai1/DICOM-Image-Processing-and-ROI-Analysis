@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+//first run getDICOMMetadata.py to get the dicom_metadata.txt file
 const metadataText = fs.readFileSync("./dicom_metadata.txt", "utf8");
 
 function extractMetadata(text) {
