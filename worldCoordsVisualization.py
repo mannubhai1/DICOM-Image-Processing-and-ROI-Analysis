@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from shapely.geometry import Polygon
 from shapely import affinity
 
-with open('./worldCoordinates.json', 'r') as file:
+with open('./public/worldCoordinates.json', 'r') as file:
     data = json.load(file)
 
 points = data

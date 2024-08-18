@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const metadataValues = require("./extractFromMetadata");
-const pixelPoints = require("./pixelPoints.json");
+const pixelPoints = require("./public/pixelPoints.json");
 console.log(pixelPoints[1]);
 // console.log(metadataValues);
 
